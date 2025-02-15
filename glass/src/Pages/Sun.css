@@ -1,0 +1,42 @@
+#card{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    gap: 40px;
+}
+
+.img-fluid{
+    width:250px;
+    height: 280px;
+   margin-top:8px ;
+}
+
+.kids{
+    text-align: center;
+}
+
+.card{
+    width: 500px;
+    height: 300px;
+}
+
+.btn{
+    border: 1px solid;
+    margin: 5px;
+}
+
+#value{
+    width: 50px;
+    border: 1px solid;
+    height: 38px;
+    margin: 5px;
+    text-align: center;
+}
+
+#submit{
+margin: 10px;
+}
+
+.value{
+    display: flex;
+}
