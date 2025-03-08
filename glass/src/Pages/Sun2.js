@@ -52,7 +52,7 @@ return(
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">sunglass for children</h5>
+        <h5 class="card-title">Swimming Glass</h5>
         <p class="card-text">protect from sunlight</p>
         <p>Quantitty</p>
       <div className='value'>
@@ -102,7 +102,7 @@ return(
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">sunglass for children</h5>
+        <h5 class="card-title">HD waterfroof</h5>
         <p class="card-text">protect from sunlight</p>
         <p>Quantitty</p>
       <div className='value'>
