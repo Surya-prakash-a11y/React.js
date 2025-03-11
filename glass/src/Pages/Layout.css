@@ -3,6 +3,9 @@
     height: 450px;
 }
 
+.navbar-nav{
+margin-left: 35%;
+}
 
 #sun1 img{
     width: 200px;
