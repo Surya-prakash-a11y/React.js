@@ -60,10 +60,10 @@ margin: 10px;
     }
 
     .value{
-        margin-right: 18%;
+       margin-left: -17%;
     }
     #submit{
-      justify-items: baseline;
-        width: 100px;
+     margin-left: -13%;
+        width: 140px;
     }
 }
