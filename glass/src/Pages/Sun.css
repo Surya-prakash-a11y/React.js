@@ -40,3 +40,19 @@ margin: 10px;
 .value{
     display: flex;
 }
+
+
+@media screen and (max-width:768px) {
+    .card{ 
+         height: 700px;
+        display: block;
+        position: relative;
+    }
+    .card-body{
+        display: block;
+        position: absolute;
+    }
+    .card-text{
+        margin-top: 5%;
+    }
+}

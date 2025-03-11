@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import React,{useState} from 'react';
-
+import { Link } from 'react-router-dom';
 
 import kid1 from './images/kid1.jpg'
 import kid2 from './images/kid2.jpg'
@@ -46,19 +46,19 @@ return(
 <div className='container'>
 <h1 className='kids'>Kids Collection</h1>
 <div id='card'>
-<div class="card mb-3">
-  <div class="row g-0">
-    <div class="col-md-4">
+<div className="card mb-3">
+  <div className="row g-0">
+    <div className="col-md-4">
       <img src={kid1} class="img-fluid rounded-start" alt="..."/>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">sunglass for children</h5>
-        <p class="card-text">protect from sunlight</p>
+    <div className="col-md-8">
+      <div className="card-body">
+        <h5 className="card-title">sunglass for children</h5>
+        <p className="card-text">protect from sunlight</p>
         <p>Quantitty</p>
       <div className='value'>
       <button className='btn'>+</button>
-<spam id="value"></spam>
+<span id="value"></span>
         <button className='btn' >-</button>
       </div>
       <h2 className="card-text">₹20</h2>
@@ -69,19 +69,19 @@ return(
     </div>
   </div>
 </div>
-<div class="card mb-3">
-  <div class="row g-0">
-    <div class="col-md-4">
+<div className="card mb-3">
+  <div className="row g-0">
+    <div className="col-md-4">
       <img src={kid2} class="img-fluid rounded-start" alt="..."/>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">sunglass for children</h5>
-        <p class="card-text">protect from sunlight</p>
+    <div className="col-md-8">
+      <div className="card-body">
+        <h5 className="card-title">sunglass for children</h5>
+        <p className="card-text">protect from sunlight</p>
         <p>Quantitty</p>
       <div className='value'>
       <button className='btn' >+</button>
-<spam id="value"></spam>
+<span id="value"></span>
         <button className='btn'>-</button>
       </div>
       <h2 className="card-text">₹40</h2>
@@ -96,19 +96,19 @@ return(
 </div>
 
 <div id='card'>
-<div class="card mb-3">
-  <div class="row g-0">
-    <div class="col-md-4">
+<div className="card mb-3">
+  <div className="row g-0">
+    <div className="col-md-4">
       <img src={kid4} class="img-fluid rounded-start" alt="..."/>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">sunglass for children</h5>
-        <p class="card-text">protect from sunlight</p>
+    <div className="col-md-8">
+      <div className="card-body">
+        <h5 className="card-title">sunglass for children</h5>
+        <p className="card-text">protect from sunlight</p>
         <p>Quantitty</p>
       <div className='value'>
       <button className='btn'>+</button>
-<spam id="value"></spam>
+<span id="value"></span>
         <button className='btn'>-</button>
       </div>
       <h2 className="card-text">₹20</h2>
@@ -119,19 +119,19 @@ return(
     </div>
   </div>
 </div>
-<div class="card mb-3">
-  <div class="row g-0">
-    <div class="col-md-4">
+<div className="card mb-3">
+  <div className="row g-0">
+    <div className="col-md-4">
       <img src={kid3} class="img-fluid rounded-start" alt="..."/>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">sunglass for children</h5>
+    <div className="col-md-8">
+      <div className="card-body">
+        <h5 className="card-title">sunglass for children</h5>
         <p class="card-text">protect from sunlight</p>
         <p>Quantitty</p>
       <div className='value'>
       <button className='btn'>+</button>
-<spam id="value"></spam>
+<span id="value"></span>
         <button className='btn'>-</button>
       </div>
       <h2 className="card-text">₹30</h2>
@@ -145,6 +145,7 @@ return(
 
 </div>
 
+<button type='' id='back'><Link to='/' style={{color:"white", textDecoration:"none"}}>Back To Home</Link></button>
 
 </div>
 

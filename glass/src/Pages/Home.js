@@ -1,7 +1,6 @@
 
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
@@ -15,6 +14,9 @@ import sun4 from './images/sun4.jpg'
 import sun5 from './images/sun5.jpeg'
 import sun6 from './images/sun6.jpg'
 import sun7 from './images/sun7.jpeg'
+
+import './Home.css';
+
 const Home = () => {
     return (
         <div>
