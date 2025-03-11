@@ -44,7 +44,7 @@ margin: 10px;
 
 @media screen and (max-width:768px) {
     .card{ 
-          width: 300px;
+          width: 400px;
          height: 700px;
         display: block;
         position: relative;
@@ -64,7 +64,7 @@ margin: 10px;
 
     .value{
        margin-left: -6%;
-       width: 150px;
+       width: 120px;
        border: 1px solid;
        
     }
@@ -76,9 +76,11 @@ margin: 10px;
     .card-title{
         font-size: smaller;
         text-align: start;
+        margin-left: -10%;
     }
     .card-text{
         font-size: small;
         text-align: start;
+        margin-left: -10%;
     }
 }
